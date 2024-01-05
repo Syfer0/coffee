@@ -1,11 +1,10 @@
+import { Title } from "./componets/Title";
 import Header from "./componets/Header";
-import Product from "./componets/Product";
-
 const App = () => {
   return (
     <div>
       <Header />
-      <Product />
+      <Title />
     </div>
   );
 };
